@@ -1,0 +1,1095 @@
+body {
+ padding: 0px;
+ margin: 0px;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ font-family: sans-serif, Arial, Helvetica, sans-serif;
+ color: rgb(58, 53, 53);
+
+}
+
+.Contact-btn {
+   
+    background-color: #00A1E0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    z-index: 999;
+}
+
+.HoverEffect:hover {
+    background-color: #48b5e0;
+    cursor: pointer;
+}
+
+header {
+   background-image: url(/hero-bg.jpg);
+   background-size:cover;    
+}
+
+a {
+    text-decoration: none;
+    color: #4b4545;
+}
+
+                                                /* Navbar Section */
+
+
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 6rem;
+  
+}
+
+.Logo-Section {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-right: 45dvw;
+    font-size: 1rem;
+    font-weight:bolder;
+    
+}
+
+.Nav-Elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 33dvw;
+}
+
+.elements {
+    margin-right: 2.5rem;
+}   
+
+.hamburger {
+    display: none;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+                                            /* Hero Section */
+
+
+.Hero {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+
+}
+
+.H-data {
+    width: 50dvw;
+    padding: 5rem;
+    
+}
+
+.H-Heading {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.data {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.H-Image {
+    width: 50dvw;
+}
+
+.H-bg-image {
+    width: 50dvw;
+    
+}
+
+.H-btn {
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #00A1E0;
+    color: white;
+    width: 8rem;
+    border: none;
+    border-radius: 4px;
+    padding: 0.7rem  1rem;
+}
+
+
+
+
+                                                /* Question Section */
+
+
+
+
+
+.Question {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}        
+
+.Q-heading {
+    padding-top: 9rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.Q-paragraph {
+    padding: 2rem;
+    width: 60dvw;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.Q-btns {
+   padding-bottom: 7rem;
+}
+
+.Q-btn1{
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: #00A1E0;
+    color: white;
+    width: 8rem;
+    border: none;
+    border-radius: 4px;
+    padding: 0.7rem  1rem;
+}
+
+.Q-btn2 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: #92d7f2;
+    color: white;
+    width: 8rem;
+    border: none;
+    border-radius: 4px;
+    padding: 0.7rem  1rem;
+}
+
+
+
+
+                                           /* Slider Section */
+
+
+
+.slider-container {
+    display: flex;
+    width: auto;
+    height: 70dvh;
+    margin: 5rem 0rem;
+   
+}
+
+.image-slider {
+    flex: 1;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px #0000004b;
+}
+
+.image-slider img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 1s ease-in-out; /* Smooth fade effect */
+ 
+}
+
+.image-slider img.active {
+    opacity: 1;
+   
+}
+
+.content {
+
+    width: 40dvw;
+    padding: 5rem;
+    
+}
+
+/* Style for the headings */
+.content h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    font-weight: normal; /* Set all headings as normal by default */
+    transition: font-weight 0.3s ease-in-out;
+}
+
+.bold {
+    font-weight: bolder;
+    zoom: 1.2; /* Bold for the active heading */
+    color: #92d7f2;
+}
+
+#heading1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+
+#heading2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#heading3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+/* enterprise section */
+
+.enterprise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    background-color: #f0ededc7;
+    height: 150vh;
+}
+
+
+.E-Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 10rem;
+    text-align: center;
+    
+}
+
+.M-heading {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding: 2rem;
+}
+
+.M-data {
+    font-size: 1.5rem;
+    font-weight:lighter;
+}
+
+.E-side {
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-around;
+    padding: 3rem;
+   
+ 
+}
+
+.S-heading {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding-top: 2rem;
+}
+
+.S-data {
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    font-weight:lighter;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+.Links {
+    margin-top: 5rem;
+    color: #48b5e0;
+}
+
+.E-Image {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75dvw;
+    height: 30vh;
+}
+
+.E-Image1 {
+    width: 75dvw;
+    height: 45vh;
+}
+
+
+
+                                                    /* Companies Section */
+
+
+.Companies {
+    background-color: #dbe1e8;
+    padding: 8rem;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    padding-bottom: 2rem;
+}
+
+.C-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -3rem;
+   
+}
+
+.C-img1 {
+    padding: 4rem;
+}
+
+.C-img2 {
+    padding: 4rem;
+}
+
+.C-Heading1 {
+    padding-left: 11rem;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    
+}
+
+.C-details {
+    padding-left: 11rem;
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+
+.Cytiva-logo {
+    padding-left: 5.5rem;
+    margin-top: 1rem;
+    height: 28px;
+}
+
+
+
+                                                    /* Search Section */
+
+
+.Search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    background-color: #333;
+    color: white;
+}
+
+.heading {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding: 1rem;
+}
+
+input {
+    padding: 1rem;
+    height: 0.5rem;
+    width: 15rem;
+}
+
+.input-btn {
+    padding: 0.8rem 1.5rem;
+    background-color: #00A1E0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #2e2e2e;
+    color: #fff;
+    padding: 40px 100px;
+    
+}
+
+/* Main footer section layout */
+.footer-sections {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #444;
+    padding-bottom: 30px;
+}
+
+.footer-column {
+    width: 22%;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 12px;
+}
+
+.footer-column ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.Footer-Mail {
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+    
+}
+
+/* Email subscription section */
+ .email-subscribe input[type="email"] {
+  
+    color: rgb(95, 95, 95) ;
+    border: 1px solid rgb(95, 95, 95);
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 10rem;
+    background-color: transparent;
+} 
+
+.email-subscribe button {
+    height: 2.5rem;
+    padding: 1px;
+    background-color: #00a4e4;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 6rem;
+    
+}
+
+
+/* Footer bottom section */
+.footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.footer-bottom .branding {
+    display: flex;
+    align-items: center;
+}
+
+.footer-bottom .branding img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.footer-bottom .branding p {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.footer-bottom .privacy-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.footer-bottom .privacy-links a {
+    color: #ccc;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-bottom .privacy-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom .toggle {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 5px;
+    color: #ccc;
+}
+
+.footer-bottom .toggle input {
+    width: 15px;
+    height: 15px;
+}
+
+.footer-bottom .social-icons img {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#privacy-choices {
+    height: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  /* Responsive Styles */
+
+
+
+
+                                        /* max-width: 1024px */
+
+@media (max-width: 1024px) {
+    .Navbar {
+        font-size: 0.5rem;
+    }
+
+    .Nav-Elements {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        font-weight: 600;
+        width: 40dvw;
+    }
+    
+    .elements {
+        margin-right: 1rem;
+    }
+
+    .H-data {
+        width: 50dvw;
+        padding: 3rem;
+        
+    }
+    
+    .H-Heading {
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+    
+    .data {
+        font-size: 1rem;
+    }    
+}
+
+
+
+                                                /* max-width: 768px */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .Q-heading {
+        padding-top: 6rem;
+        font-size: 2rem;
+    }
+    .Q-paragraph {
+        padding: 1.5rem;
+        width: 80dvw;
+        font-size: 1rem;
+    }
+    .Q-btns {
+        padding: 2rem;
+        display: flex;
+        
+    }
+    .Q-btn1, .Q-btn2 {
+        font-size: 1rem;
+        width: 10rem;
+        margin: 0.5rem;
+    }
+    .slider-container {
+        height: auto;
+        margin: 4rem 0rem;
+    }
+    .image-slider img {
+        max-width: 90%;
+    }
+    .content {
+        width: 30dvw;
+        padding: 3rem;
+    }
+    .enterprise {
+        height: 80vh;
+        padding: 0px;
+        margin: x;
+    }
+
+    .E-heading {
+        padding: 0px;
+        margin: 0px;
+    }
+    .E-side {
+        padding: 2rem;
+    }
+    .E-Image, .E-Image1 {
+        width: 70dvw;
+        height: 20rem;
+    }
+    .Companies {
+        padding: 6rem;
+    }
+    .C-data {
+        
+        margin-bottom: 2rem;
+    }
+    
+    footer {
+        padding: 20px 80px;
+    }
+
+    .Footer-Mail {
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+  
+}
+
+
+.Logo-Section {
+    display: flex;
+    align-items: center;
+}
+
+.Logo-Section img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.Logo-Section h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+
+
+/* Hamburger Button */
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    header {
+        background-image: url(/hero-bg.jpg);
+        background-size:cover;    
+        width:100vw
+     }
+    .Navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* Initially hide the nav elements, positioning them off-screen on mobile */
+    .Nav-Elements {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100%;
+        width: 250px;
+        background-color: #333;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: right 0.3s ease; /* Slide-in effect */
+        z-index: 999;
+        height: 40dvh;
+    }
+
+    .Nav-Elements .elements {
+        padding: 15px;
+        width: 50%;
+        text-align: center;
+        border-bottom: 1px solid #444;
+        color: white;
+    }
+
+    .Nav-Elements .elements:last-child {
+        border-bottom: none;
+    }
+
+    /* Hamburger button for mobile */
+    .hamburger {
+        display: block;
+    }
+
+    /* Show Nav-Elements when active (slide it in from the right) */
+    .Nav-Elements.active {
+        right: 0;
+    }
+
+
+    .Question {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+    .Q-heading {
+        padding-top: 3rem;
+        font-size: 1.8rem;
+    }
+    .Q-paragraph {
+        padding: 1rem;
+        width: 90dvw;
+        font-size: 0.9rem;
+    }
+    .Q-btns {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .Q-btn1, .Q-btn2 {
+        font-size: 1rem;
+        width: 80dvw;
+        margin: 0.5rem;
+    }
+    .slider-container {
+        flex-direction: column;
+        height: 70dvh;
+        margin: 2rem 0rem;
+    }
+    .image-slider img {
+        max-width: 90%;
+        box-shadow: 3px 3px 20px rgba(255, 255, 255, 0);
+    }
+    .content {
+        width: 80dvw;
+        height: 30dvh;
+        padding: 2rem;
+    }
+    .E-Main {
+        padding: 2rem;
+      
+        
+    }
+
+    .M-heading {
+        font-size: 2rem;
+    }
+
+    .M-data {
+        font-size: 1rem;
+    }   
+     
+    .E-side {
+        flex-direction: column;
+        padding: 4rem;
+    }
+    .E-Image, .E-Image1 {
+        width: 130%;
+        height: auto;
+        padding: 0px;
+    }
+    .Companies {
+        width: 100vw;
+        padding: 4rem;
+        
+    }
+    .C-data {
+        margin-bottom: 1rem;
+       
+    }
+
+    .C-words {
+        width: 100%;
+        margin-left: 2rem;
+    }
+
+    .C-img1 {
+        padding: 0px;
+    }
+    .C-img2 {
+        opacity: 0;
+    }
+
+    .C-Heading1 {
+        padding-left: 18vw;
+    }
+    .C-details {
+        padding-left: 18vw;
+    }
+
+    .Cytiva-logo {
+        padding-left: 9vw;
+    }
+
+
+
+    .Search {
+        padding: 2rem;
+       
+    }
+
+    .input {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        text-align: center;
+       
+    }
+
+    .input-btn {
+        margin-top: 1rem;
+    }
+
+
+    footer {
+        padding: 15px 30px;
+    }
+    .footer-sections {
+        display: flex;
+        flex-wrap: wrap;
+        grid-row: 2;
+    }
+    .footer-column {
+        display: inline;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .Footer-Mail {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-bottom {
+        gap: 20px;
+    }
+    .footer-bottom .branding {
+        margin-bottom: 10px;
+    }
+    .footer-bottom .privacy-links {
+        gap: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Add a slight background fade effect behind the menu */
+body.menu-open {
+    overflow: hidden;
+}
+
+body.menu-open::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+}
+
+
+
+
+
+
+
+/* Responsive Styling for max-width: 480px */
+@media (max-width: 480px) {
+    
+  
+    .Navbar {
+        justify-content: space-between;
+        align-items: center;
+        width: fit-content;
+    }
+
+    /* Initially hide the nav elements, positioning them off-screen on small mobile screens */
+    .Nav-Elements {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100%;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: right 0.3s ease; /* Slide-in effect */
+        z-index: 999;
+        height: 35dvh;
+        width: 50dvw;
+    }
+
+    .Nav-Elements .elements {
+        padding: 10px;
+        width: 50%;
+        text-align: center;
+        border-bottom: 1px solid #444;
+        color: white;
+       
+    }
+
+    .Nav-Elements .elements:last-child {
+        border-bottom: none;
+    }
+
+    /* Show Hamburger Button */
+    .hamburger {
+        display: block;
+    }
+
+    /* Show Nav-Elements when active (slide it in from the right) */
+    .Nav-Elements.active {
+        right: 100;
+    }
+    .Hero {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+        
+    .H-data {
+        width: 90dvw;
+        padding: 5rem;
+        
+    }
+
+    .H-Heading {
+        font-size: 2.5rem;
+        font-weight: bolder;
+    }
+
+    .data {
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+
+}
+
+
+
+
+
+
+
+/* Add a slight background fade effect behind the menu */
+body.menu-open {
+    overflow: hidden;
+}
+
+body.menu-open::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+}
